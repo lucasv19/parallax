@@ -1,0 +1,259 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #2c3333;
+}
+
+.title {
+  padding: 60px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 30px;
+}
+
+h1 {
+  font-family: "Oswald", sans-serif;
+  color: #cbe4de;
+}
+
+h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.parallax1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background-position: 50% 50%;
+  background-image: url(./img/as-sete-7-maravilhas-do-mundo-moderno-cristo-capa-1536x805.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.parallax1:after {
+  content: " ";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 8;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0,
+    rgba(0, 0, 0, 0) 40%,
+    #000 100%
+  );
+}
+
+.title-img {
+  text-align: center;
+  color: #2e4f4f;
+  font-size: 27px;
+}
+
+.block {
+  width: 100%;
+  max-width: 760px;
+  margin: 0 auto;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  font-size: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+  color: #a6bdd0;
+}
+
+/*PARALLAX 2*/
+
+.parallax2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background-position: 50% 50%;
+  background-image: url(./img/chichen-itza-mexico-cancun-e1612344106331.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.parallax2:after {
+  content: " ";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 8;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0,
+    rgba(0, 0, 0, 0) 40%,
+    #000 100%
+  );
+}
+
+/*PARALLAX 3*/
+
+.parallax3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background-position: 50% 50%;
+  background-image: url(./img/roma-italia_1067-820x547.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.parallax3:after {
+  content: " ";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 8;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0,
+    rgba(0, 0, 0, 0) 40%,
+    #000 100%
+  );
+}
+
+/*PARALLAX 4*/
+
+.parallax4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background-position: 50% 50%;
+  background-image: url(./img/muralha-china-820x545.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.parallax4:after {
+  content: " ";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 8;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0,
+    rgba(0, 0, 0, 0) 40%,
+    #000 100%
+  );
+}
+
+/*PARALLAX 5*/
+
+.parallax5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background-position: 50% 50%;
+  background-image: url(./img/jordania-capa2019-1-820x430.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.parallax5::after {
+  content: " ";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 8;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0,
+    rgba(0, 0, 0, 0) 40%,
+    #000 100%
+  );
+}
+
+/*PARALLAX 6*/
+
+.parallax6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background-position: 50% 50%;
+  background-image: url(./img/peru-cusco-machu-picchu1-820x546.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.parallax6:after {
+  content: " ";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 8;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0,
+    rgba(0, 0, 0, 0) 40%,
+    #000 100%
+  );
+}
+
+/*PARALLAX 7*/
+
+.parallax7 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background-position: 50% 50%;
+  background-image: url(./img/india-taj-mahal-1009262_1280.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.parallax7:after {
+  content: " ";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 8;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0,
+    rgba(0, 0, 0, 0) 40%,
+    #000 100%
+  );
+}
